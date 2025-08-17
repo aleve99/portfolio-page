@@ -31,10 +31,28 @@ export function Experience() {
   
   const categories: Category[] = [
     { id: 'pmo', name: 'PMO', icon: '🏢', color: 'from-indigo-500 to-purple-600' },
-    { id: 'internship', name: 'Internship', icon: '🚀', color: 'from-blue-500 to-cyan-600' }    
+    { id: 'internship', name: 'Internship', icon: '🚀', color: 'from-blue-500 to-cyan-600' },
+    { id: 'data', name: 'Data', icon: '📊', color: 'from-green-500 to-emerald-600' }
   ];
   
   const experiences: Experience[] = [
+    {
+      id: 'deloitte',
+      position: "Analyst",
+      company: "Deloitte Italy S.p.A S.B.",
+      location: "Milan, Italy",
+      period: "June 1, 2025 - ongoing",
+      startDate: "2025-06",
+      endDate: "present",
+      description: [
+        "Data analysis (financial sector)",
+        "Trading algorithm development",
+        "AI/ML for banking process optimization"
+      ],
+      skills: ["Data Analysis", "Python", "AI", "Machine Learning", "Finance"],
+      category: 'data',
+      highlight: true
+    },
     {
       id: 'danieli',
       position: "PMO Junior",
@@ -49,13 +67,12 @@ export function Experience() {
       ],
       skills: ["Risk Management", "Project Management", "ISO 31000", "Training", "Documentation"],
       category: 'pmo',
-      highlight: true
     },
     {
       id: 'boato',
       position: "Internship",
       company: "Boato International SpA",
-      location: "Maserada sul Piave, Italy",
+      location: "Monfalcone, Italy",
       period: "June 5, 2022 - December 5, 2022",
       startDate: "2022-06",
       endDate: "2022-12",

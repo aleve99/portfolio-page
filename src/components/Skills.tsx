@@ -30,7 +30,7 @@ export function Skills() {
       color: 'from-orange-400 to-amber-500'
     },
     { 
-      name: 'Office/Excel', 
+      name: 'Office/Excel/Power Query', 
       level: 'Intermediate', 
       icon: '📊', 
       color: 'from-green-500 to-emerald-600' 
